@@ -12,6 +12,8 @@
 		AC21C2DB2240590E004638AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC21C2D92240590E004638AF /* Main.storyboard */; };
 		AC21C2DD2240590F004638AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC21C2DC2240590F004638AF /* Assets.xcassets */; };
 		AC21C2E02240590F004638AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC21C2DE2240590F004638AF /* LaunchScreen.storyboard */; };
+		AC21C2E822407A0B004638AF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21C2E722407A0B004638AF /* SettingsViewController.swift */; };
+		AC21C2EA22408118004638AF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC21C2E922408118004638AF /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC21C2DC2240590F004638AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC21C2DF2240590F004638AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC21C2E12240590F004638AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC21C2E722407A0B004638AF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC21C2E922408118004638AF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				AC21C2D52240590D004638AF /* AppDelegate.swift */,
 				AC21C2D72240590D004638AF /* ViewController.swift */,
+				AC21C2E922408118004638AF /* Settings.bundle */,
 				AC21C2D92240590E004638AF /* Main.storyboard */,
+				AC21C2E722407A0B004638AF /* SettingsViewController.swift */,
 				AC21C2DC2240590F004638AF /* Assets.xcassets */,
 				AC21C2DE2240590F004638AF /* LaunchScreen.storyboard */,
 				AC21C2E12240590F004638AF /* Info.plist */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC21C2EA22408118004638AF /* Settings.bundle in Resources */,
 				AC21C2E02240590F004638AF /* LaunchScreen.storyboard in Resources */,
 				AC21C2DD2240590F004638AF /* Assets.xcassets in Resources */,
 				AC21C2DB2240590E004638AF /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				AC21C2D82240590D004638AF /* ViewController.swift in Sources */,
 				AC21C2D62240590D004638AF /* AppDelegate.swift in Sources */,
+				AC21C2E822407A0B004638AF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
